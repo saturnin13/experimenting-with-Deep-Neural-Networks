@@ -1,0 +1,6 @@
+Keras
+tqdm
+tensorflow
+matplotlib
+simplejson
+numpy
