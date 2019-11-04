@@ -149,8 +149,8 @@ def main():
 
     # Plot accuracy learning curve
     ax1 = plt.subplot(2, 1, 1)
-    plt.plot(history.history['acc'])
-    plt.plot(history.history['val_acc'])
+    plt.plot(history.history['accuracy'])
+    plt.plot(history.history['val_accuracy'])
     plt.title('%s accuracy' % args.model_name)
     plt.ylabel('Accuracy')
     plt.xlabel('Epoch')
